@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon.svg"
+    />
+    <!-- ✅ Only load scripts once -->
+    <script defer src="./scripts.js"></script>
+    <title>Kanban Task Management</title>
+  </head>
+
+  <body>
+    <nav class="side-bar" id="side-bar-div">
+      <div id="side-logo-div">
+        <img id="logo" src="./assets/logo-light.svg" alt="logo-light" />
+      </div>
+      <div class="boards-nav-links-div" id="boards-nav-links-div">
+        <h4 id="headline-sidepanel">ALL BOARDS (1)</h4>
+        <button class="board-btn">Launch Career</button>
+      </div>
+    </nav>
+
+    <div id="layout">
+      <header id="header" class="sticky-header">
+        <div class="header-name-div">
+          <img
+            src="./assets/favicon.svg"
+            alt="logo-mobile"
+            class="logo-mobile"
+          />
+          <h2 class="header-board-name" id="header-board-name">
+            Launch Career
+          </h2>
+        </div>
+      </header>
+
+      <div class="container">
+        <main class="card-column-main">
+          <!-- TODO Column -->
+          <div class="column-div" data-status="todo">
+            <div class="column-head-div">
+              <span class="dot"></span>
+              <h4 class="columnHeader">TODO (0)</h4>
+            </div>
+            <div class="tasks-container"></div>
+          </div>
+
+          <!-- DOING Column -->
+          <div class="column-div" data-status="doing">
+            <div class="column-head-div">
+              <span class="dot"></span>
+              <h4 class="columnHeader">DOING (0)</h4>
+            </div>
+            <div class="tasks-container"></div>
+          </div>
+
+          <!-- DONE Column -->
+          <div class="column-div" data-status="done">
+            <div class="column-head-div">
+              <span class="dot"></span>
+              <h4 class="columnHeader">DONE (0)</h4>
+            </div>
+            <div class="tasks-container"></div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
