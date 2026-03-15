@@ -11,7 +11,8 @@ Figma Design Link
 
 I worked from the updated Figma Design provided in the course [Figma Link](https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenges-%7C-JSL?node-id=0-1&p=f&t=Ki0CZk0RAjrk9Fhs-0)
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
+
 • HTML5 – Semantic structure and accessibility
 • CSS3 – Responsive styling, custom variables, and layout design
 • JavaScript (ES6+) – Dynamic rendering, modular functions, and event handling
