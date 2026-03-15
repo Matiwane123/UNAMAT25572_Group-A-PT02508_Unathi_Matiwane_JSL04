@@ -5,7 +5,8 @@
 This project is my implementation of a dynamic Kanban task board, built to practice and demonstrate DOM manipulation, event handling, modular JavaScript structure, and responsive UI design.
 Tasks are generated from initial data and displayed in the correct workflow columns: To Do, In Progress, and Done. Clicking on a task opens a modal view where I can edit the task’s title, description, and status. The design follows the updated Figma guidelines and adapts seamlessly across desktop, tablet, and mobile.
 
-##🎨 Design Reference
+## 🎨 Design Reference
+
 Figma Design Link
 
 I worked from the updated Figma Design provided in the course [Figma Link](https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenges-%7C-JSL?node-id=0-1&p=f&t=Ki0CZk0RAjrk9Fhs-0)
