@@ -307,15 +307,22 @@ h2 {
 }
 
 .modal {
-  display: none;
+  display: none; /* Hidden by default */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); /* Backdrop effect */
+
+  /* Flexbox centering */
   justify-content: center;
   align-items: center;
+}
+
+.modal.show {
+  /* Add this class when opening */
+  display: flex;
 }
 
 .modal-content {
@@ -323,6 +330,7 @@ h2 {
   padding: 20px;
   border-radius: 12px;
   width: 320px;
+  max-width: 90%; /* Responsive on small screens */
   box-shadow: var(--primary-box-shadow);
   display: flex;
   flex-direction: column;
@@ -333,4 +341,20 @@ h2 {
   align-self: flex-end;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+#save-task {
+  background-color: #635fc7; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#save-task:hover {
+  background-color: #5146c2; /* Slightly darker blue on hover */
 }

@@ -116,7 +116,7 @@ function updateCounts() {
 // =======================
 function openModal(task) {
   currentTask = task;
-  modal.style.display = "block";
+  modal.style.display = "flex";
   document.getElementById("modal-title").value = task.title;
   document.getElementById("modal-description").value = task.description;
   document.getElementById("modal-status").value = task.status;
